@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Add new book</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -51,8 +51,9 @@
         </nav>
     </header>
     <main class="min-vh-100">
-        <h1 class="p-4">Nuovo libro</h1>
-        <div class="container ">
+        
+        <div class="container container-lg container-sm">
+            <h1 class="py-4">Nuovo libro</h1>
             <div class="row">
                 <div class="col">
                     <label class="form-label">Nome Autore</label>
@@ -75,53 +76,54 @@
                     Titolo versione italiana
                 </div>
             </div>
-        </div>
-        <!-- /row -->
-        <div class="row ">
-            <div class="col-lg-4 col-sm-12 col-12">
-                <label class="form-label">Genere</label>
-                <select class="form-select" aria-label="Genere">
-                    <option selected>Scegli il Genere</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
+            <!-- /row -->
+            <div class="row ">
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <label class="form-label">Genere</label>
+                    <select class="form-select" aria-label="Genere">
+                        <option selected>Scegli il Genere</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
 
+                </div>
+                <!-- /col -->
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <label class="form-label">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno" aria-label="anno">
+                </div>
+                <!-- /col -->
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <label class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" aria-label="ISBN#">
+
+                </div>
+                <!-- /col -->
             </div>
-            <!-- /col -->
-            <div class="col-lg-4 col-sm-12 col-12">
-                <label class="form-label">Anno di Pubblicazione</label>
-                <input type="text" class="form-control" placeholder="Inserisci l'anno" aria-label="anno">
+            <!-- /row -->
 
-            </div>
-            <!-- /col -->
-            <div class="col-lg-4 col-sm-12 col-12">
-                <label class="form-label">ISBN#</label>
-                <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" aria-label="ISBN#">
-
-            </div>
-            <!-- /col -->
-            <div class="col">
-
-            </div>
-        </div>
-        <!-- /row -->
-        <br><br><br><br>
-        <p>Note</p>
-        <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Inserisci eventuali note sul libro</label>
-        </div>
-        <div class="form-check py-3">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Disponibile anche in digitale
-            </label>
-        </div>
-        <a name="Libro" id="" class="btn btn-primary" href="#" role="button">Aggiungi libro</a>
-
-
+            <hr class="my-5">
+                 
+                <p class="">Note</p>
+                <div class="form-floating">
+                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                         style="height: 100px"></textarea>
+                     <label for="floatingTextarea2">Inserisci eventuali note sul libro</label>
+                </div>
+                <!-- /form-floating -->
+                <div class="form-check py-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                         Disponibile anche in digitale
+                    </label>
+                </div>
+                <!-- /form-check -->
+                <div>
+                    <a name="Libro" id="" class="btn btn-primary" href="#" role="button">Aggiungi libro</a>
+                </div>
+                <!-- /button -->
+            
         </div>
         <!-- /container -->
     </main>
