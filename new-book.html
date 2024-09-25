@@ -50,9 +50,9 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h1>Nuovo libro</h1>
-        <div class="container">
+    <main class="min-vh-100">
+        <h1 class="p-4">Nuovo libro</h1>
+        <div class="container ">
             <div class="row">
                 <div class="col">
                     <label class="form-label">Nome Autore</label>
@@ -76,6 +76,33 @@
                  </div>
              </div>
              <!-- /row -->
+              <div class="row ">
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <label class="form-label">Genere</label>
+                    <select class="form-select" aria-label="Genere">
+                        <option selected>Scegli il Genere</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                </div>
+                <!-- /col -->
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <label class="form-label">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno" aria-label="anno">
+
+                </div>
+                <!-- /col -->
+                <div class="col-lg-4 col-sm-12 col-12">
+                    <label class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#" aria-label="ISBN#">
+
+                </div>
+                <!-- /col -->
+              </div>
+              <!-- /row -->
+
         </div>
         <!-- /container -->
     </main>
